@@ -27,26 +27,37 @@
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #755446;
+  --ifm-color-primary: #697565;
   --ifm-color-primary-dark: #A57865;
   --ifm-color-primary-darker: #8B6553;
-  --ifm-color-primary-darkest: #755446;
+  --ifm-color-primary-darkest: #EDE2DB;
   --ifm-color-primary-light: #D8C3B8;
   --ifm-color-primary-lighter: #EDE2DB;
   --ifm-color-primary-lightest: #F5F1EE;
-  --ifm-background-color: #2D2220;
+  --ifm-background-color: #3C3D37;
   --ifm-color-text-primary: #FFFFFF;
   --ifm-color-text-secondary: #D8C3B8;
   --ifm-color-text-link: #D8C3B8;
+  --ifm-color-text-secondary: #3C3D37;
+  --ifm-navbar-link-color: #D8C3B8;
   --ifm-menu-color: #D8C3B8;
-  --ifm-navbar-background-color: #3D2E27;
-  --ifm-hero-background-color: #3D2E27;
-  --ifm-footer-background-color: #3D2E27;
+  --ifm-navbar-background-color: #3C3D37;
+  --ifm-hero-background-color: #ECDFCC;
+  --ifm-footer-background-color: #697565;
   --docusaurus-highlighted-code-line-bg: rgba(196, 165, 152, 0.2);
+  --ifm-background-color: #3C3D37;
 
   /* Ajustements spécifiques pour le mode sombre */
-  --ifm-card-background-color: #3D2E27;
-  --ifm-dropdown-background-color: #3D2E27;
+  --ifm-card-background-color: #697565;
+  --ifm-dropdown-background-color: #3C3D37;
+
+  .featureCard_QAQr {
+    background-color: #ECDFCC;
+  }
+
+  .features_t9lD {
+    background-color: #3C3D37;
+  }
 }
 
 /* Style des textes */
