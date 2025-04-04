@@ -1,0 +1,242 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #A57865;
+  --ifm-color-primary-dark: #8B6553;
+  --ifm-color-primary-darker: #755446;
+  --ifm-color-primary-darkest: #5E4336;
+  --ifm-color-primary-light: #C4A598;
+  --ifm-color-primary-lighter: #D8C3B8;
+  --ifm-color-primary-lightest: #EDE2DB;
+  --ifm-background-color: #F5F1EE;
+  --ifm-color-text-primary: #3D2E27;
+  --ifm-color-text-secondary: #6B5147;
+  --ifm-color-text-link: #A57865;
+  --ifm-menu-color: #3D2E27;
+  --ifm-navbar-background-color: #FFFFFF;
+  --ifm-hero-background-color: #EDE2DB;
+  --ifm-footer-background-color: #D8C3B8;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(165, 120, 101, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #755446;
+  --ifm-color-primary-dark: #A57865;
+  --ifm-color-primary-darker: #8B6553;
+  --ifm-color-primary-darkest: #755446;
+  --ifm-color-primary-light: #D8C3B8;
+  --ifm-color-primary-lighter: #EDE2DB;
+  --ifm-color-primary-lightest: #F5F1EE;
+  --ifm-background-color: #2D2220;
+  --ifm-color-text-primary: #FFFFFF;
+  --ifm-color-text-secondary: #D8C3B8;
+  --ifm-color-text-link: #D8C3B8;
+  --ifm-menu-color: #D8C3B8;
+  --ifm-navbar-background-color: #3D2E27;
+  --ifm-hero-background-color: #3D2E27;
+  --ifm-footer-background-color: #3D2E27;
+  --docusaurus-highlighted-code-line-bg: rgba(196, 165, 152, 0.2);
+
+  /* Ajustements spécifiques pour le mode sombre */
+  --ifm-card-background-color: #3D2E27;
+  --ifm-dropdown-background-color: #3D2E27;
+}
+
+/* Style des textes */
+:root {
+  color: var(--ifm-color-text-primary);
+}
+
+p, li {
+  color: var(--ifm-color-text-primary);
+}
+
+.text--secondary {
+  color: var(--ifm-color-text-secondary) !important;
+}
+
+a {
+  color: var(--ifm-color-text-link);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--ifm-color-primary-dark);
+}
+
+/* Style des en-têtes */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--ifm-color-text-primary);
+  font-weight: 600;
+}
+
+/* Style des liens dans les en-têtes */
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Style des citations */
+blockquote {
+  border-left: 4px solid var(--ifm-color-primary);
+  color: var(--ifm-color-text-secondary);
+  padding-left: 1rem;
+  margin-left: 0;
+  background-color: var(--ifm-color-primary-lightest);
+}
+
+/* Style des listes */
+ul, ol {
+  margin-left: 1.5rem;
+}
+
+/* Style des boutons */
+.button {
+  transition: all 0.2s ease;
+  background-color: var(--ifm-color-primary);
+  border: none;
+  color: white;
+}
+
+.button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  background-color: var(--ifm-color-primary-dark);
+}
+
+.button--secondary {
+  background-color: var(--ifm-color-primary-lighter);
+  color: var(--ifm-color-primary-darkest);
+}
+
+.button--secondary:hover {
+  background-color: var(--ifm-color-primary-light);
+  color: var(--ifm-color-primary-darkest);
+}
+
+/* Style de la navbar */
+.navbar {
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+/* Style du hero */
+.hero {
+  background-color: var(--ifm-hero-background-color);
+}
+
+.hero__title {
+  color: var(--ifm-color-primary-darkest);
+}
+
+.hero__subtitle {
+  color: var(--ifm-color-text-secondary);
+}
+
+/* Style du footer */
+.footer {
+  background-color: var(--ifm-footer-background-color);
+  color: var(--ifm-color-primary-darkest);
+  padding: 3rem 0;
+}
+
+.footer__title {
+  color: var(--ifm-color-primary-darkest);
+  font-weight: 600;
+}
+
+.footer__item {
+  color: var(--ifm-color-text-secondary);
+}
+
+.footer__link-item {
+  color: var(--ifm-color-text-secondary);
+  transition: color 0.2s ease;
+}
+
+.footer__link-item:hover {
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+}
+
+.footer__copyright {
+  color: var(--ifm-color-text-secondary);
+  font-size: 0.875rem;
+}
+
+/* Ajustements pour le footer en mode sombre */
+[data-theme='dark'] .footer {
+  background-color: var(--ifm-footer-background-color);
+  color: var(--ifm-color-primary-lightest);
+}
+
+[data-theme='dark'] .footer__title {
+  color: var(--ifm-color-primary-lightest);
+}
+
+[data-theme='dark'] .footer__item,
+[data-theme='dark'] .footer__link-item {
+  color: var(--ifm-color-primary-lighter);
+}
+
+[data-theme='dark'] .footer__link-item:hover {
+  color: var(--ifm-color-primary-lightest);
+}
+
+[data-theme='dark'] .footer__copyright {
+  color: var(--ifm-color-primary-lighter);
+}
+
+/* Style des cards */
+.card {
+  border: 1px solid var(--ifm-color-primary-lightest);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  transition: all 0.2s ease;
+  background-color: var(--ifm-card-background-color, white);
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+[data-theme='dark'] .card {
+  border-color: var(--ifm-color-primary-darker);
+}
+
+/* Style des tables */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid var(--ifm-color-primary-lighter);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th {
+  background-color: var(--ifm-color-primary-lightest);
+  color: var(--ifm-color-primary-darkest);
+  font-weight: 600;
+}
+
+td, th {
+  padding: 12px;
+  border-bottom: 1px solid var(--ifm-color-primary-lighter);
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+tr:hover {
+  background-color: var(--ifm-color-primary-lightest);
+}

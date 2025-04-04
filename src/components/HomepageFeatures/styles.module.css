@@ -1,0 +1,40 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 4rem 0;
+  width: 100%;
+  background-color: var(--ifm-background-color);
+}
+
+.featureCard {
+  padding: 2rem;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(165, 120, 101, 0.1);
+  transition: all 0.3s ease;
+  text-align: center;
+  margin: 1rem;
+  flex: 1;
+}
+
+.featureCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(165, 120, 101, 0.2);
+}
+
+.featureCard h3 {
+  color: var(--ifm-color-primary-darkest);
+  margin-bottom: 1rem;
+}
+
+.featureCard p {
+  color: var(--ifm-color-text-secondary);
+  line-height: 1.6;
+}
+
+.featureSvg {
+  height: 200px;
+  width: 200px;
+  margin-bottom: 1.5rem;
+  fill: var(--ifm-color-primary);
+}
