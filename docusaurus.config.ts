@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'We Learn Together',
+  title: 'Learnosaurus',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
@@ -64,7 +64,7 @@ const config: Config = {
         respectPrefersColorScheme: true,
       },
     navbar: {
-      title: 'We Learn Together',
+      title: 'Learnosaurus',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -74,7 +74,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Nos sections',
+          label: '📚 Documentation',
         },
         // {to: '/blog', label: 'Blog', position: 'left'},
         // {
@@ -87,59 +87,59 @@ const config: Config = {
     footer: {
       style: 'light',
       links: [
-        {
-          title: 'Documentation',
-          items: [
-            {
-              label: 'Introduction',
-              to: '/docs/intro',
-            },
-            {
-              label: 'Guides',
-              to: '/docs/category/guides',
-            },
-            {
-              label: 'Solutions',
-              to: '/docs/category/solutions',
-            },
-          ],
-        },
-        {
-          title: 'Activités',
-          items: [
-            {
-              label: 'Tracker',
-              to: '/activity',
-            },
-            {
-              label: 'Journal',
-              to: '/blog',
-            },
-            {
-              label: 'Statistiques',
-              to: '/stats',
-            },
-          ],
-        },
-        {
-          title: 'Ressources',
-          items: [
-            {
-              label: 'Rechercher',
-              to: '/search',
-            },
-            {
-              label: 'Contribuer',
-              to: '/docs/contribute',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com',
-            },
-          ],
-        },
+      //   {
+      //     title: 'Documentation',
+      //     items: [
+      //       {
+      //         label: 'Introduction',
+      //         to: '/docs/intro',
+      //       },
+      //       {
+      //         label: 'Guides',
+      //         to: '/docs/category/guides',
+      //       },
+      //       {
+      //         label: 'Solutions',
+      //         to: '/docs/category/solutions',
+      //       },
+      //     ],
+      //   },
+        // {
+        //   title: 'Activités',
+        //   items: [
+        //     {
+        //       label: 'Tracker',
+        //       to: '/activity',
+        //     },
+        //     {
+        //       label: 'Journal',
+        //       to: '/blog',
+        //     },
+        //     {
+        //       label: 'Statistiques',
+        //       to: '/stats',
+        //     },
+        //   ],
+        // },
+        // {
+        //   title: 'Ressources',
+        //   items: [
+        //     {
+        //       label: 'Rechercher',
+        //       to: '/search',
+        //     },
+        //     {
+        //       label: 'Contribuer',
+        //       to: '/docs/contribute',
+        //     },
+        //     {
+        //       label: 'GitHub',
+        //       href: 'https://github.com',
+        //     },
+        //   ],
+        // },
       ],
-      copyright: `© ${new Date().getFullYear()} We Learn Together. Tous droits réservés.`,
+      copyright: `© ${new Date().getFullYear()} Learnosaurus. Tous droits réservés.`,
     },
     prism: {
       theme: prismThemes.github,
