@@ -354,7 +354,7 @@ none !important;
 }
 
 [data-theme='dark'] .card {
-  border-color: var(--ifm-color-primary-darker);
+  /* border-color: var(--ifm-color-primary-darker); */
 }
 
 /* Style des tables */
