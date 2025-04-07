@@ -2,43 +2,48 @@
 sidebar_position: 1
 ---
 
-# 🚀 Intro
+# 🚀 Hello world !
 
-Bienvenue dans notre espace de partage de connaissances ! Ici, chaque ligne de code raconte une histoire, chaque solution partagée enrichit notre expertise collective.
+Bienvenue dans mon jardin numérique d'apprentissage ! C'est ici que je garde trace de mes découvertes, astuces et solutions que je déterre au fil de mes projets.
 
-## 🎯 Notre Mission
+## 🎥 Pourquoi ce site ?
 
-Nous croyons en la puissance du partage et de l'apprentissage collaboratif. Cette documentation vivante est notre hub central pour :
+J'ai toujours trouvé frustrant d'oublier ces petites victoires techniques du quotidien. Ce site est ma façon de les capturer et, qui sait, peut-être t'aideront-elles aussi !
 
-- 📚 **Partager nos connaissances** techniques et bonnes pratiques
-- 💡 **Documenter nos solutions** aux défis quotidiens
-- 🔧 **Capitaliser sur notre expertise** collective
-- 🤝 **Grandir ensemble** à travers le partage d'expériences
+- 📚 J'y compile les techniques que j'apprends au fil de l'eau
+- 💡 J'y note les solutions à ces bugs qui m'ont fait perdre des heures
+- 🔧 J'y construis ma boîte à outils personnelle
+- 🤝 Et je partage tout ça avec plaisir !
 
-## 💫 Ce que vous trouverez ici
+## 🔫 Ce que tu trouveras ici
 
-### Guides Pratiques
-Des tutoriels pas à pas et des guides détaillés pour maîtriser nos outils et technologies.
+### Guides pratiques sans prise de tête
+Des explications simples pour des concepts parfois complexes, comme je les aurais aimées trouver moi-même.
 
-### Solutions Techniques
-Des approches éprouvées et des patterns de code pour résoudre les défis complexes.
+### Astuces techniques
+Des solutions concrètes que j'ai testées moi-même. Des patterns de code qui fonctionnent vraiment, et évitent bien des prises de tête.
 
-### Retours d'Expérience
-Des leçons apprises sur le terrain et des cas d'usage concrets.
+### Mes aventures de dev 🧑‍💻
+Ces moments "aha!" où j'ai compris quelque chose après des heures de débug. Ces stories qu'on raconte entre devs avec un sourire en coin.
 
-## 🚀 Comment Contribuer
+## 📝 Comment j'organise tout ça
 
-1. **Explorez** la documentation existante
-2. **Apprenez** de l'expérience de l'équipe
-3. **Partagez** vos découvertes et solutions
-4. **Échangez** avec vos collègues
+J'essaie de garder cette doc vivante et utile :
+
+1. Je note régulièrement mes découvertes techniques
+2. Je crée des cheat sheets pour retrouver rapidement ce qui compte
+3. Je décompose les concepts complexes en explications simples
+4. Je documente les erreurs pour ne pas les répéter (et t'éviter de les faire 😉)
 
 ## 🎉 Par où commencer ?
 
-- [📖 Parcourir les Guides](/docs/guides)
-- [💻 Explorer les Solutions](/docs/solutions)
-- [🤝 Rejoindre les Discussions](/docs/discussions)
+J'ai organisé la doc par thèmes, choisis ton aventure :
+
+- [📖 Vue et son écosystème](/docs/vue3/Intro)
+- [♻️ Éco-conception web](/docs/eco-conception/Intro)
+- [♿️ Accessibilité numérique](/docs/accessibilite/ARIA)
+- [📝 Toutes mes cheat sheets](/docs/cheat-sheet/vue3)
 
 ---
 
-> "Le meilleur moment pour apprendre était hier. Le deuxième meilleur moment est maintenant."
+> "Le code, c'est comme l'humour : quand il faut l'expliquer, c'est qu'il n'est pas bon."

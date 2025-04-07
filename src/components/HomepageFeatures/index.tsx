@@ -15,8 +15,8 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Une plateforme collaborative pour partager et documenter nos apprentissages
-        et meilleures pratiques de développement.
+        {/* Une plateforme collaborative pour partager et documenter nos apprentissages
+        et meilleures pratiques de développement. */}
       </>
     ),
   },
@@ -25,8 +25,8 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Des guides pratiques, des exemples de code et des solutions techniques
-        facilement accessibles et maintenus à jour.
+        {/* Des guides pratiques, des exemples de code et des solutions techniques
+        facilement accessibles et maintenus à jour. */}
       </>
     ),
   },
@@ -35,8 +35,8 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Visualisez vos progrès et contributions grâce à notre tracker d'activités
-        inspiré de GitHub. Restez motivé et engagé dans votre apprentissage.
+        {/* Visualisez vos progrès et contributions grâce à notre tracker d'activités
+        inspiré de GitHub. Restez motivé et engagé dans votre apprentissage. */}
       </>
     ),
   },
