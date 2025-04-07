@@ -23,11 +23,13 @@
   --ifm-footer-background-color: #D8C3B8;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(165, 120, 101, 0.1);
+  --ifm-navbar-link-hover-color: #FF6584;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #697565;
+--ifm-color-subtitle: #FF6584;
+  --ifm-color-primary: #3C3D37;
   --ifm-color-primary-dark: #A57865;
   --ifm-color-primary-darker: #8B6553;
   --ifm-color-primary-darkest: #EDE2DB;
@@ -37,22 +39,22 @@
   --ifm-background-color: #3C3D37;
   --ifm-color-text-primary: #FFFFFF;
   --ifm-color-text-secondary: #D8C3B8;
-  --ifm-color-text-link: #D8C3B8;
-  --ifm-color-text-secondary: #3C3D37;
+  --ifm-color-text-link: #FF6584;
+  --ifm-color-text-secondary: #ECDFCC;
   --ifm-navbar-link-color: #D8C3B8;
-  --ifm-menu-color: #D8C3B8;
-  --ifm-navbar-background-color: #3C3D37;
+  --ifm-menu-color: #FF6584;
+  --ifm-navbar-background-color: #3F3D56;
   --ifm-hero-background-color: #ECDFCC;
-  --ifm-footer-background-color: #697565;
+  --ifm-footer-background-color: #3F3D56;
   --docusaurus-highlighted-code-line-bg: rgba(196, 165, 152, 0.2);
-  --ifm-background-color: #3C3D37;
+  --ifm-background-color: #3F3D56;
 
   /* Ajustements spécifiques pour le mode sombre */
-  --ifm-card-background-color: #697565;
-  --ifm-dropdown-background-color: #3C3D37;
+  --ifm-card-background-color: #3F3D56;
+  --ifm-dropdown-background-color: #3F3D56;
 
   .featureCard_QAQr {
-    background-color: #ECDFCC;
+    background-color: #3F3D56;
   }
 
   .features_t9lD {
@@ -80,7 +82,7 @@ a {
 }
 
 a:hover {
-  color: var(--ifm-color-primary-dark);
+  color: var(--ifm-color-subtitle);
 }
 
 /* Style des en-têtes */
@@ -120,7 +122,7 @@ ul, ol {
 .button:hover {
   transform: translateY(-1px);
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  background-color: var(--ifm-color-primary-dark);
+  background-color: var(--ifm-color-subtitle);
 }
 
 .button--secondary {
@@ -129,8 +131,8 @@ ul, ol {
 }
 
 .button--secondary:hover {
-  background-color: var(--ifm-color-primary-light);
-  color: var(--ifm-color-primary-darkest);
+  background-color: var(---ifm-color-subtitle);
+  color: var(--ifm-color-subtitle);
 }
 
 /* Style de la navbar */
@@ -148,7 +150,23 @@ ul, ol {
 }
 
 .hero__subtitle {
-  color: var(--ifm-color-text-secondary);
+  color: var(--ifm-color-subtitle);
+}
+
+.navbar__item navbar__link{
+  color: var(--ifm-color-subtitle);
+}
+
+.navbar__link--active {
+  color: var(--ifm-color-subtitle);
+}
+
+.menu__link--active {
+  color: var(--ifm-color-subtitle);
+}
+
+.table-of-contents__link--active {
+  color: var(--ifm-color-subtitle);
 }
 
 /* Style du footer */
@@ -173,7 +191,7 @@ ul, ol {
 }
 
 .footer__link-item:hover {
-  color: var(--ifm-color-primary);
+  color: var(--ifm-color-subtitle);
   text-decoration: none;
 }
 
@@ -198,7 +216,7 @@ ul, ol {
 }
 
 [data-theme='dark'] .footer__link-item:hover {
-  color: var(--ifm-color-primary-lightest);
+  color: var(--ifm-color-subtitle);
 }
 
 [data-theme='dark'] .footer__copyright {
@@ -249,5 +267,5 @@ tr:last-child td {
 }
 
 tr:hover {
-  background-color: var(--ifm-color-primary-lightest);
+  background-color: var(--ifm-color-subtitle);
 }
