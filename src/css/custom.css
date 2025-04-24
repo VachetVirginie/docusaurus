@@ -46,23 +46,23 @@
   --ifm-color-text-secondary: #ECDFCC;
   --ifm-navbar-link-color: #D8C3B8;
   --ifm-menu-color: #FF6584;
-  --ifm-navbar-background-color: #3F3D56;
+  --ifm-navbar-background-color: #1B1B1D;
   --ifm-hero-background-color: #ECDFCC;
-  --ifm-footer-background-color: #3F3D56;
+  --ifm-footer-background-color: #1B1B1D;
   --docusaurus-highlighted-code-line-bg: rgba(196, 165, 152, 0.2);
-  --ifm-background-color: #3F3D56;
+  --ifm-background-color: #1B1B1D;
   --ifm-sidebar-color: white;
 
   /* Ajustements spécifiques pour le mode sombre */
-  --ifm-card-background-color: #3F3D56;
-  --ifm-dropdown-background-color: #3F3D56;
+  --ifm-card-background-color: #1B1B1D;
+  --ifm-dropdown-background-color: #1B1B1D;
 
   .featureCard_QAQr {
-    background-color: #3F3D56;
+    background-color: #3C3D37;
   }
 
   .features_t9lD {
-    background-color: #3C3D37;
+    background-color: #1B1B1D;
   }
 }
 
